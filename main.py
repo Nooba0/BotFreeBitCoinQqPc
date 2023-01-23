@@ -20,11 +20,11 @@ time.sleep(2)
 
 navegador.find_element(By.XPATH, '//*[@id="push_notification_modal"]/div[1]/div[2]/div/div[1]' ).click()
 #CAMPO LOGIN
-navegador.find_element(By.XPATH, '//*[@id="login_form_btc_address"]' ).send_keys("fabiofilho370@gmail.com")
+navegador.find_element(By.XPATH, '//*[@id="login_form_btc_address"]' ).send_keys("email@gmail.com")
 
 time.sleep(2)
 #CAMPO SENHA
-navegador.find_element(By.XPATH, '//*[@id="login_form_password"]' ).send_keys("tSy3wqaWGHTZedXM")
+navegador.find_element(By.XPATH, '//*[@id="login_form_password"]' ).send_keys("senhalogin")
 
 time.sleep(2)
 #BOTAO DE LOGIN
