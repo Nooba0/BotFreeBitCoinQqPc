@@ -44,6 +44,7 @@ pyautogui.click(x=1909, y=925)
 time.sleep(5)
 
 #Caixa Preencher
+#Altere as configurações de pixel para conseguir clicar na caixa preencher
 pyautogui.click(x=831, y=785)
 
 time.sleep(30)
